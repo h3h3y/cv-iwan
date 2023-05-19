@@ -740,18 +740,6 @@ section:nth-child(odd) .animate.scroll {
   .education {
     padding: 10rem 4% 5rem 5%;
   }
-
-  .home-content p,
-  .about-content p,
-  .education-row,
-  .skills-row,
-  .btn-box {
-    padding-right: 2rem;
-  }
-
-  .footer {
-    padding-right: 5rem;
-  }
 }
 
 @media (max-width: 371px) {
@@ -795,18 +783,6 @@ section:nth-child(odd) .animate.scroll {
     justify-content: center;
     align-items: center;
     margin: auto;
-  }
-
-  .home-content p,
-  .about-content p,
-  .education-row,
-  .skills-row,
-  .btn-box {
-    padding-right: 2rem;
-  }
-
-  .footer {
-    padding-right: 4rem;
   }
 }
 
