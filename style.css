@@ -152,8 +152,7 @@ section {
 .btn-box {
   position: relative;
   display: flex;
-  justify-content: space-between;
-  width: 34.5rem;
+  width: 17rem;
   height: 5rem;
 }
 
@@ -267,12 +266,6 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.5s;
-}
-
-.about-img:hover {
-  width: 40rem;
-  height: 40rem;
   transition: 0.5s;
 }
 
@@ -627,6 +620,14 @@ section:nth-child(odd) .animate.scroll {
   width: 0;
 }
 
+@media (min-width: 1281px) {
+  .about-img:hover {
+    width: 40rem;
+    height: 40rem;
+    transition: 0.5s;
+  }
+}
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -739,6 +740,18 @@ section:nth-child(odd) .animate.scroll {
   .education {
     padding: 10rem 4% 5rem 5%;
   }
+
+  .home-content p,
+  .about-content p,
+  .education-row,
+  .skills-row,
+  .btn-box {
+    padding-right: 2rem;
+  }
+
+  .footer {
+    padding-right: 5rem;
+  }
 }
 
 @media (max-width: 371px) {
@@ -758,10 +771,42 @@ section:nth-child(odd) .animate.scroll {
     font-size: 5rem;
   }
 
+  .home-content h3 {
+    position: relative;
+    display: flex;
+    margin: auto;
+  }
+
+  .home-content .text-animate {
+    position: relative;
+    display: flex;
+    width: 36rem;
+    margin: auto;
+  }
+
+  .home-content p,
+  .about-content p {
+    text-align: center;
+  }
+
   .btn-box {
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .home-content p,
+  .about-content p,
+  .education-row,
+  .skills-row,
+  .btn-box {
+    padding-right: 2rem;
+  }
+
+  .footer {
+    padding-right: 4rem;
   }
 }
 
